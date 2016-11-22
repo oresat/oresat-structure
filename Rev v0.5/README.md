@@ -3,10 +3,15 @@
 Calvin is ridiculous and doesn't use SolidWorks.
 Here are some STEP files.  Get in touch if that's a problem.
 
+THOUGHTS 11/21
+- Apparently the camera is long
+- Does the aluminum gusset on +Z interfere with signals?
+- Probably want to move the endcap tabs away from the rails a little bit
+
 THOUGHTS 11/20
 - Some more weight-savings to be had
 - Is a PCB-as-gusset/endcap okay for -Z face?
-- Is aluminum gusset really necessaru for +Z face?
+- Is aluminum gusset really necessary for +Z face?
 
 THOUGHTS 11/05
 - Need to double-check the insertion level on 20 and 40 pin connectors
