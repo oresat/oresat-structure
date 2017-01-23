@@ -3,18 +3,24 @@
 Calvin is ridiculous and doesn't use SolidWorks.
 Here are some STEP files.  Get in touch if that's a problem.
 
+THOUGHTS 11/21
+- Apparently the camera is long
+- Does the aluminum gusset on +Z interfere with signals?
+- Probably want to move the endcap tabs away from the rails a little bit
+
+THOUGHTS 11/20
+- Some more weight-savings to be had
+- Is a PCB-as-gusset/endcap okay for -Z face?
+- Is aluminum gusset really necessary for +Z face?
+
 THOUGHTS 11/05
 - Need to double-check the insertion level on 20 and 40 pin connectors
-- Rear solar 20-pin males need room for their feet
-- Do we actually need gussets / endcaps?
-- Do we need this many bolts on the back?
-
-THOUGHTS 10/30
-- Top/bottom cards won't be able to slide in and out because solar panel connectors
 
 TODO
-- 3D printed mockup by November 15th
-- Put vertical connector on endcap solar panel
-- Add springs and switches to standoffs
-- Figure out top / bottom for springs and switches
+- Triple check connector placement / insertion
+- Put vertical connectors on antenna boards
+- Add deployment switches
+- Details of antenna boards
 - Integrate reaction wheels
+- Create tabs for PSC compatibility
+- Eventually figure out tolerances and such
