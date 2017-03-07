@@ -8,3 +8,4 @@ CAD requires <a href="https://github.com/oresat/reaction-wheels">Reaction-Wheels
 	* Properly mate/parameterize all necessary structures
  * Organize file structure into something reasonable
  * Discuss endcap mounting
+ * form subgroup to work on antenna deployment
