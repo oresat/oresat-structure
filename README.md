@@ -13,9 +13,11 @@ _Please start at the top of the list. Lower items in the CAD migration typically
 	- [ ] `Cards/Solar/ALTA-FIVE-CELL-THROUGH-SLOT.sldprt`
 - [ ] migrate individual CAD files into Solidworks.  
 _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spot in `Rev 0.5 Migrated/`)_
-	- REACTION WHEELS _(These parts should come from the reaction wheels repo.)_
-		- [ ] Add `oresat/reaction-wheels` as a submodule
-		- [ ] Link to the appropriate parts and/or subassemblies in the oresat assembly
+	- REACTION WHEELS  
+	_(These parts should come from the reaction wheels repo. They are also going to change at some point, so don't stress too much about mating them to the OreSat assembly.)_
+		- [ ] Add `oresat/reaction-wheels` as a submodule?  
+		_I'm not sure if it's better to add it as a submodule or just have the SW assemblies link outside of the structure repo. The submodule is marginally more learning curve for the MME types, but the other way is less self-contained._
+		- [ ] Link to the appropriate parts and/or subassemblies in the OreSat SolidWorks assembly.
 	- HELICAL CAN _(This will have to be modified, so it's not super necessary to migrate.)_
 		- [ ] 100211587UGM000_B.2
 			- [ ] Identify what part this is.
