@@ -27,7 +27,7 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 	- SOLAR PANEL 1U
 		- [ ] 1522020X601XXX_100210477MOD000B
 			- [ ] Identify what part this is.
-		- [ ] BOSS EXTRUDE 5
+		- [X] BOSS EXTRUDE 5
 	- BACKPLANE V4 POPULATED
 		- [ ] MMCX CONNECTOR PLUG
 		- [ ] 1521040X401XXX_100632479MOD0_1
