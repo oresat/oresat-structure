@@ -52,7 +52,7 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 		    	- [ ] 100211647UGM000_B
 				- [ ] Identify what part this is.
 		- CARD CAMERA
-			- [ ] CAMERA
+			- [X] CAMERA
 			- [ ] MMCX FEMALE
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 3
 			- [ ] 100211647UGM000_B
