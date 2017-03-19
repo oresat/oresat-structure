@@ -45,7 +45,7 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 			- [ ] 100211647UGM000_B
 				- [ ] Identify what part this is.
 			- [ ] MMCX FEMALE
-			- [ ] MODULE PLACEHOLDER PCB WITHRF 2
+			- [X] MODULE PLACEHOLDER PCB WITHRF 2
 		- CARD LOWER
 			- [ ] MMCX FEMALE
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 4
