@@ -21,7 +21,7 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 	- HELICAL CAN _(This will have to be modified, so it's not super necessary to migrate.)_
 		- [ ] 100211587UGM000_B.2
 			- [ ] Identify what part this is.
-		- [ ] MMCX FEMALE
+		- [X] MMCX FEMALE
 		- [ ] MODULE PLACEHOLDER PCB WITHRF
 		- [ ] HELICAL CAN REV 0 1
 	- SOLAR PANEL 1U
@@ -29,7 +29,7 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 			- [ ] Identify what part this is.
 		- [X] BOSS EXTRUDE 5
 	- BACKPLANE V4 POPULATED
-		- [ ] MMCX CONNECTOR PLUG
+		- [X] MMCX CONNECTOR PLUG
 		- [ ] 1521040X401XXX_100632479MOD0_1
 			- [ ] Identify what part this is.
 		- [ ] BACKPLANE V4
@@ -44,16 +44,16 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 		-  CARD GENERIC
 			- [ ] 100211647UGM000_B
 				- [ ] Identify what part this is.
-			- [ ] MMCX FEMALE
+			- [X] MMCX FEMALE
 			- [X] MODULE PLACEHOLDER PCB WITHRF 2
 		- CARD LOWER
-			- [ ] MMCX FEMALE
+			- [X] MMCX FEMALE
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 4
 		    	- [ ] 100211647UGM000_B
 				- [ ] Identify what part this is.
 		- CARD CAMERA
 			- [X] CAMERA
-			- [ ] MMCX FEMALE
+			- [X] MMCX FEMALE
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 3
 			- [ ] 100211647UGM000_B
 				- [ ] Identify what part this is.
