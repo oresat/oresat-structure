@@ -26,13 +26,14 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 		- [ ] HELICAL CAN REV 0 1
 	- SOLAR PANEL 1U
 		- [ ] 1522020X601XXX_100210477MOD000B
-			- [ ] Identify what part this is.
+			- [X] Identify what part this is. _This is the female 20 pin connector._
 		- [X] BOSS EXTRUDE 5
-	- BACKPLANE V4 POPULATED
+	- BACKPLANE V4 POPULATED  
 		- [X] MMCX CONNECTOR PLUG
 		- [ ] 1521040X401XXX_100632479MOD0_1
-			- [ ] Identify what part this is.
+			- [X] Identify what part this is. _This is the female 40 pin connector._
 		- [ ] BACKPLANE V4
+		    - [ ] _The vertical locations of the MMCX and 40 pin connectors need to be slightly adjusted to match the positions of the mating connecors on the cards._
 		- [ ] STUFF (might be unnecessary)
 	- [ ] SPACE FOAM
 	- STRUCTURE
@@ -42,26 +43,26 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 		- [X] BACK
 	- CARD MODULES
 		-  CARD GENERIC
-			- [ ] 100211647UGM000_B
-				- [ ] Identify what part this is.
+			- [X] 100211647UGM000_B
+				- [X] Identify what part this is. _This is the male 40 pin connector. 10 02 116 "har-flex" angled connector._
 			- [X] MMCX FEMALE
 			- [X] MODULE PLACEHOLDER PCB WITHRF 2
 		- CARD LOWER
 			- [X] MMCX FEMALE
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 4
 		    	- [ ] 100211647UGM000_B
-				- [ ] Identify what part this is.
+				- [X] Identify what part this is. _This is the male 40 pin connector. 10 02 116 "har-flex" angled connector._
 		- CARD CAMERA
 			- [X] CAMERA
 			- [X] MMCX FEMALE
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 3
 			- [ ] 100211647UGM000_B
-				- [ ] Identify what part this is.
+				- [X] Identify what part this is. _This is the male 40 pin connector. 10 02 116 "har-flex" angled connector._
 	- ANTENNA SOLARPANEL UNWRAPPED
 		- CARD TOP
 			- [ ] MODULE PLACEHOLDER PCB WITHRF
 			- [ ] 100211587UMG000_B
-				- [ ] Identify what part this is.
+				- [X] Identify what part this is. _This is the male 20 pin connector._
 		- [ ] ANTENNA WRAP GUIDE _(This will have to be modified, so it's not super necessary to migrate.)_
 		- ANTENNA ASSEMBLY UNWRAPPED _(This will have to be modified, so it's not super necessary to migrate.)_
 			- [ ] 163 MM ANTENNA
