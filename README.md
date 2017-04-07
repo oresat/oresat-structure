@@ -19,49 +19,49 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 		_I'm not sure if it's better to add it as a submodule or just have the SW assemblies link outside of the structure repo. The submodule is marginally more learning curve for the MME types, but the other way is less self-contained._
 		- [ ] Link to the appropriate parts and/or subassemblies in the OreSat SolidWorks assembly.
 	- HELICAL CAN _(This will have to be modified, so it's not super necessary to migrate.)_
-		- [ ] 100211587UGM000_B.2
+		- [ ] 100211587UGM000_B.2 _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 			- [ ] Identify what part this is.
 		- [X] MMCX FEMALE
 		- [ ] MODULE PLACEHOLDER PCB WITHRF
 		- [ ] HELICAL CAN REV 0 1
 	- SOLAR PANEL 1U
-		- [ ] 1522020X601XXX_100210477MOD000B
+		- [ ] 1522020X601XXX_100210477MOD000B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 			- [X] Identify what part this is. _This is the female 20 pin connector._
 		- [X] BOSS EXTRUDE 5
 	- BACKPLANE V4 POPULATED  
-		- [X] MMCX CONNECTOR PLUG
-		- [ ] 1521040X401XXX_100632479MOD0_1
+		- [X] MMCX CONNECTOR PLUG _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
+		- [X] 1521040X401XXX_100632479MOD0_1 _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 			- [X] Identify what part this is. _This is the female 40 pin connector._
-		- [ ] BACKPLANE V4
+		- [X] BACKPLANE V4
 		    - [ ] _The vertical locations of the MMCX and 40 pin connectors need to be slightly adjusted to match the positions of the mating connecors on the cards._
-		- [ ] STUFF (might be unnecessary)
+		- [X] STUFF (might be unnecessary) _These were removed, as they were in fact unnecessary jl_
 	- [ ] SPACE FOAM
 	- STRUCTURE
-		- [X] M2.5 10 MM
+		- [X] M2.5 10 MM 
 		- [X] SIDES
 		- [X] FRONT
 		- [X] BACK
 	- CARD MODULES
 		-  CARD GENERIC
-			- [X] 100211647UGM000_B
+			- [X] 100211647UGM000_B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 				- [X] Identify what part this is. _This is the male 40 pin connector. 10 02 116 "har-flex" angled connector._
-			- [X] MMCX FEMALE
+			- [X] MMCX FEMALE _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 			- [X] MODULE PLACEHOLDER PCB WITHRF 2
 		- CARD LOWER
-			- [X] MMCX FEMALE
+			- [X] MMCX FEMALE _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 4
-		    	- [ ] 100211647UGM000_B
+		    	- [ ] 100211647UGM000_B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 				- [X] Identify what part this is. _This is the male 40 pin connector. 10 02 116 "har-flex" angled connector._
 		- CARD CAMERA
 			- [X] CAMERA
-			- [X] MMCX FEMALE
+			- [X] MMCX FEMALE _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 			- [ ] MODULE PLACEHOLDER PCB WITHRF 3
-			- [ ] 100211647UGM000_B
+			- [ ] 100211647UGM000_B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 				- [X] Identify what part this is. _This is the male 40 pin connector. 10 02 116 "har-flex" angled connector._
 	- ANTENNA SOLARPANEL UNWRAPPED
 		- CARD TOP
 			- [ ] MODULE PLACEHOLDER PCB WITHRF
-			- [ ] 100211587UMG000_B
+			- [ ] 100211587UMG000_B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 				- [X] Identify what part this is. _This is the male 20 pin connector._
 		- [ ] ANTENNA WRAP GUIDE _(This will have to be modified, so it's not super necessary to migrate.)_
 		- ANTENNA ASSEMBLY UNWRAPPED _(This will have to be modified, so it's not super necessary to migrate.)_
