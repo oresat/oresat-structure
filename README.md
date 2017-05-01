@@ -22,7 +22,7 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 		- [ ] 100211587UGM000_B.2 _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 			- [ ] Identify what part this is.
 		- [X] MMCX FEMALE
-		- [ ] MODULE PLACEHOLDER PCB WITHRF
+		- [X] MODULE PLACEHOLDER PCB WITHRF
 		- [X] HELICAL CAN REV 0 1
 	- SOLAR PANEL 1U
 		- [ ] 1522020X601XXX_100210477MOD000B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
