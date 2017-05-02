@@ -60,8 +60,8 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 				- [X] Identify what part this is. _This is the male 40 pin connector. 10 02 116 "har-flex" angled connector._
 	- ANTENNA SOLARPANEL UNWRAPPED
 		- CARD TOP
-			- [ ] MODULE PLACEHOLDER PCB WITHRF
-			- [ ] 100211587UMG000_B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
+			- [X] MODULE PLACEHOLDER PCB WITHRF
+			- [X] 100211587UMG000_B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 				- [X] Identify what part this is. _This is the male 20 pin connector._
 		- [ ] ANTENNA WRAP GUIDE _(This will have to be modified, so it's not super necessary to migrate.)_
 		- ANTENNA ASSEMBLY UNWRAPPED _(This will have to be modified, so it's not super necessary to migrate.)_
