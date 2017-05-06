@@ -63,12 +63,12 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 			- [X] MODULE PLACEHOLDER PCB WITHRF
 			- [X] 100211587UMG000_B _All connectors can be left as imported solids. since these are COTS parts they will never be modified, only replaced jl_
 				- [X] Identify what part this is. _This is the male 20 pin connector._
-		- [ ] ANTENNA WRAP GUIDE _(This will have to be modified, so it's not super necessary to migrate.)_
+		- [X] ANTENNA WRAP GUIDE _(This will have to be modified, so it's not super necessary to migrate.)_
 		- ANTENNA ASSEMBLY UNWRAPPED _(This will have to be modified, so it's not super necessary to migrate.)_
-			- [ ] 163 MM ANTENNA
-			- [ ] 163 MM ANTENNA WRAPPED
-			- [ ] ANTENNA GUIDE V2
-		- [ ] SOLAR PANEL 1U Z
+			- [X] 163 MM ANTENNA
+			- [X] 163 MM ANTENNA WRAPPED
+			- [X] ANTENNA GUIDE V2
+		- [X] SOLAR PANEL 1U Z
 		
 #### Only after _all_ of the individual parts have been migrated:
 - [ ] Rename migrated parts, if necessary.
