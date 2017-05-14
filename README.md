@@ -77,3 +77,19 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 ### general
 - [ ] Discuss endcap mounting.
 - [ ] Form subgroup to work on antenna deployment.
+
+## Structure
+- Backplane  
+_The hub which provides power and data to all the boards_
+- COTS  
+_Any Commercial-Off-The-Shelf parts -- screws, connectors, et cetera._
+- OreSat.SLDASM  
+_The complete assembly of OreSat_
+- Rack  
+_The required CDS rails and the 'rack mount' panels -- the actual structure, per se_
+- Solar  
+_Solar panel modules_
+- Zneg  
+_The feet of the unicorn_
+- Zpos  
+_The horn of the unicorn_
