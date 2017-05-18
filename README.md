@@ -35,7 +35,7 @@ _(open `Rev 0.5/2u_cubesat_v0_5.stp` and export each part to the appropriate spo
 		- [X] BACKPLANE V4
 		    - [ ] _The vertical locations of the MMCX and 40 pin connectors need to be slightly adjusted to match the positions of the mating connecors on the cards._
 		- [X] STUFF (might be unnecessary) _These were removed, as they were in fact unnecessary jl_
-	- [ ] SPACE FOAM
+	- [X] SPACE FOAM
 	- STRUCTURE
 		- [X] M2.5 10 MM 
 		- [X] SIDES
