@@ -3,3 +3,6 @@
 
 # SW backup files
 ~$*
+
+# Windows thumbnails, presumably...
+Thumbs.db
