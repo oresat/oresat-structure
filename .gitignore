@@ -6,3 +6,6 @@
 
 # Windows thumbnails, presumably...
 Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints
