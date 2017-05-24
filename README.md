@@ -9,8 +9,8 @@ CAD requires <a href="https://github.com/oresat/reaction-wheels">Reaction-Wheels
 
 ## TODO:  
 - [ ] Get the UO team to choose a camera!
-- [ ] Fix the assembles/tech drawings to match Nanorack's convention of XYZ. (Helical goes on +Z. Backplane goes on -X) (@paperman5)
-- [ ] Create keepout volumes (parts in the assembly) that correspond to the CubeSat and Nanoracks specifications. (@jalouke)
+- [x] Fix the assembles/tech drawings to match Nanorack's convention of XYZ. (Helical goes on +Z. Backplane goes on -X) (@paperman5)
+- [x] Create keepout volumes (parts in the assembly) that correspond to the CubeSat and Nanoracks specifications. (@jalouke)
 - [ ] (Re)design the helical antenna. (@paperman5)
 	- [ ] Model the strings that will keep the helical rigid.
 - [ ] (Re)design the turnstile antenna. (@joedang)
@@ -31,8 +31,8 @@ _Parts/subassemblies for the cameras. (due for renaming)_
 _Parts/subassemblies for the generic card._
 - Hardware  
 _???_
-- HelicalCard  
-_Parts/subassemblies for the +Z (helical) antenna. (should be merged into `Zpos/`)_
+- ~~HelicalCard~~ 
+_~~Parts/subassemblies for the +Z (helical) antenna.~~ (merged into `Zpos/`)_
 - Rack  
 _The required CDS rails and the 'rack mount' panels -- the actual structure, per se_
 - Solar  
