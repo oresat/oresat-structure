@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"DB1C-A1LB";"";
+"TraceParts.PartVersion";"1.2.8";"";
+"SUPPLIER";"ZF Friedrichshafen AG";"";
+"TraceParts.PartStatus";"Published";"";
+"DESIGN";"Subminiature DB";"";
+"TraceParts.PartNumber";"30-19042013-061954";"";
+"TraceParts.PartLanguage";"en";"";
+"OMNICLASS23";"23.35.37.00";"";
+"TraceParts.InstanceId";"30-19042013-061954DUYY0Z0ZLY2CSM2EC33QABV4T";"";
+"TraceParts.PartTitle";"Subminiature DB";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"";"";
