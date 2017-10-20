@@ -60,9 +60,9 @@ _The complete assembly of OreSat_
 
 
 [reaction wheels]: https://github.com/oresat/reaction-wheels
-[hangout]: psas.pdx.edu/hangout
+[hangout]: http://www.psas.pdx.edu/hangout
 [issues]: https://github.com/oresat/oresat-structure/issues
-[contrib]: https://github.com/oresat/oresat-structure/blob/master/.github/CONTRIBUTION.md
+[contrib]: https://github.com/oresat/oresat-structure/blob/master/.github/CONTRIBUTING.md
 []: 
 []: 
 []: 
