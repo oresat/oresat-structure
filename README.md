@@ -1,7 +1,9 @@
 # oresat-structure
-Mechanical structure for OreSat
+Mechanical structure for [OreSat](http://www.oresat.org)
 
-CAD requires <a href="https://github.com/oresat/reaction-wheels">Reaction-Wheels</a> be cloned into the same directory, e.g.:  
+This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on the [Google hangout][hangout] (Fridays at 2 pm), [read the issues][issues], and/or read the [contributions guide.][contrib] 
+
+The top-level assembly requires the [reaction wheels] repo be cloned into the same directory, e.g.:  
 
     OreSat/
      |-- reaction-wheels/
@@ -23,6 +25,8 @@ CAD requires <a href="https://github.com/oresat/reaction-wheels">Reaction-Wheels
 - [X] Consolidate all COTS parts into the COTS folder. 
 - [ ] Update BoM with quantities.
 - [ ] Design a board that can act as an adapter for a PC 104 board. (This will either require chopping some corners off of the PC 104 or adding cutouts to the frame.)
+- [ ] Complete the inhibit switch assembly, using the measurements from the switches we ordered. 
+	- [ ] Modify the inhibit switch plunger to only have one sloping side.
 
 ## Directory Structure
 - Backplane  
@@ -52,3 +56,13 @@ _The complete assembly of OreSat_
 - [generic board (MME-style dimensions)](/Generic/Generic_board.pdf)
 - [generic board (cartesian coordinates)](/Generic/Generic_board_electricallyUseful.pdf)
 - [backplane board](/Backplane/Backplane_board.PDF) (MME style and Eagle style)
+
+
+
+[reaction wheels]: https://github.com/oresat/reaction-wheels
+[hangout]: psas.pdx.edu/hangout
+[issues]: https://github.com/oresat/oresat-structure/issues
+[contrib]: https://github.com/oresat/oresat-structure/blob/master/.github/CONTRIBUTION.md
+[]: 
+[]: 
+[]: 
