@@ -9,6 +9,13 @@ The top-level assembly requires the [reaction wheels] repo be cloned into the sa
      |-- reaction-wheels/
      |-- oresat-structure/
 
+Ultra-pro-tip: 
+* Tools -> Component Selection -> Advanced Select...
+* Filter for document names which contain `COTS`. 
+* Edit -> Hide -> Current Display State  
+This hides any components which come from the `COTS/` directory, which reduces lag significantly.  
+If you want to show them again, use the same filter process, but show the current display state. If you want to show everything, you can just select the root of the feature tree. If you're showing lots of COTS parts, please hide them before committing, since it can cause the model to load very slowly.
+
 ## TODO:  
 - [X] Get the UO team to choose a camera!
 - [x] Fix the assembles/tech drawings to match Nanorack's convention of XYZ. (Helical goes on +Z. Backplane goes on -X) (@paperman5)
