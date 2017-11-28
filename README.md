@@ -9,12 +9,16 @@ The top-level assembly requires the [reaction wheels] repo be cloned into the sa
      |-- reaction-wheels/
      |-- oresat-structure/
 
-Ultra-pro-tip: 
+## Ultra-pro-tip: 
 * Tools -> Component Selection -> Advanced Select...
-* Filter for document names which contain `COTS`. 
+* Either:
+  * Filter for document names which contain `COTS`. Name this selection and save it.
+  * Import `selectCOTS.xml`
+* Apply the selection.
 * Edit -> Hide -> Current Display State  
-This hides any components which come from the `COTS/` directory, which reduces lag significantly.  
-If you want to show them again, use the same filter process, but show the current display state. If you want to show everything, you can just select the root of the feature tree. If you're showing lots of COTS parts, please hide them before committing, since it can cause the model to load very slowly.
+This hides any components which come from the `COTS/` directory (really anything with "COTS" in the name), which reduces lag significantly.  
+If you want to show them again, use the same filter process, but show the current display state. 
+If you want to show everything, you can just ctrl+a in the feature tree. If you're showing lots of COTS parts, please hide them before committing, since it can cause the model to load very slowly.
 
 ## TODO:  
 - [X] Get the UO team to choose a camera!

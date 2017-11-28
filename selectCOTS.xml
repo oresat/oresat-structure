@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SWQueryList><Query Name="selectCOTS" Favourites_Index="1"><Boolean Name="And" Category="Document name -- SW Special" SubCategory="" Condition="contains" Value="COTS"/></Query></SWQueryList>
