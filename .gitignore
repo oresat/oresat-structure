@@ -9,3 +9,6 @@ Thumbs.db
 
 # Jupyter checkpoints
 .ipynb_checkpoints
+
+# R history
+.Rhistory
