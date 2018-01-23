@@ -47,6 +47,26 @@ You would _not_ use the "edit part" feature to edit `Generic/Generic_board.SLDPR
 You would add that feature _to the assembly itself._
 Also, when you go to make technical drawings or do CAM, you would need to use `Camera/peekaboo.SLDASM`, _not_ the generic board. 
 
+### Sketches
+It's strongly preferred that all sketches be fully defined. Otherwise, unexpected changes may occur after those sketches have been forgotten about. 
+To that same end, if a sketch references another part, that reference should be converted to a hard dimension when you're done prototyping the sketch. 
+External references can easily cause unexpected changes and break assemblies, especially in large assemblies like OreSat. 
+
+### Feature Tree Hygene
+It's strongly preferred that features be given descriptive names. (i.e., if you have something called `Cut-Extrude10`, you're doing it wrong.) 
+However, this does not apply to features made via the Hole Wizard. If you don't manually name them, Hole Wizard features automatically update their name.
+These automatic names are very useful to have if someone needs to, for example, change all M2 screws to M3. 
+
+Additionally compound features should be grouped into descriptively named folders. For example, if you create screw mounts by extruding a face, filleting the edges, adding a threaded hole, and creating an array from that, then those should be grouped together in a folder named `screw_mounts`.
+
+### Naming Conventions
+It's preferred that file and directory names not contain spaces. This makes handling files with shell scripts easier.
+
+Subsystems should always be in their own directory. The only SW file in the root of the repo should be the top-level OreSat assembly. Subsystem directories should start with a capital letter. The top level assembly (or part) within the subsystem's directory should have the exact same name as the directory.
+
+Manual version numbers should not appear in the repo. (For example, there shouldn't be any files named `widgetv0.3`, `widgetv0.3`, et cetera.) If you need to experiment with something, use branches (`git branch dev_alice`, `git checkout dev_alice`, make some commits. If you want to incorporate those changes: `git checkout master`, `git merge dev_alice`).
+If you want to keep track of major changes in the structure, use tags. `git tag v6.9` to add the tag "v6.9" to the current commit. `git checkout v0.5` to checkout the commit with tag "v0.5". `git push --tags` to push your tags to GitHub. `git tag -l` to see the available tags.
+
 ## Drawings
 Check out these drawings to get an idea of the preferred style:  
 - [generic board](/Generic/Generic_board.pdf)
