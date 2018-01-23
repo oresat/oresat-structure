@@ -1,6 +1,9 @@
 # Oresat Structure
+If you want to help build a satellite, you're in the right place. This document serves as a style guide for SolidWorks parts, drawings, and assemblies.
 
 ## SolidWorks
+We're currently using SolidWorks 2016-2017. We will be switching to the 2018 version in July. __Please avoid committing files created with versions later than 2016.__ Check `Help -> About SOLIDWORKS`, if you aren't sure what version you have.
+
 Due to the proprietary nature of SolidWorks (SW) files, Git can't `diff` our CAD. 
 To avoid massive conflicts, we therefore try to have lots of simple parts and subassemblies. This way, we can make changes only to the relevant parts or assemblies, without modifying anything we don't need to.
 
@@ -43,6 +46,20 @@ Hopefully it's obvious that such a strategy would be very error-prone and just n
 You would _not_ use the "edit part" feature to edit `Generic/Generic_board.SLDPRT`, since that would change the original part. 
 You would add that feature _to the assembly itself._
 Also, when you go to make technical drawings or do CAM, you would need to use `Camera/peekaboo.SLDASM`, _not_ the generic board. 
+
+## Drawings
+Check out these drawings to get an idea of the preferred style:  
+- [generic board](/Generic/Generic_board.pdf)
+- [backplane board](/Backplane/Backplane_board.PDF)
+- [solar board](/Solar/Solar_board_drawing.PDF)
+
+When placing things in EAGLE, the electrical engineers must enter Cartesian coordinates with the origin in the lower left corner. So, it's required that any drawings of PCBs have a page with "ordinate dimensions". 
+
+Additionally, any boards with less than about 3 mm of clearance have annotations indicating this, so the ECEs know if they can put components there.
+
+It's strongly preferred that drawings of boards also include the usual feature-oriented dimensions that are common to technical drawings. 
+
+For complicated parts, it's preferred to have the first page only show overall dimensions and the locations of all detail views. The internal features should be shown on the following pages via the detailed views.
 
 ## Version numbers
 ### tags

@@ -1,7 +1,7 @@
 # oresat-structure
 Mechanical structure for [OreSat](http://www.oresat.org)
 
-This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on the [Google hangout][hangout] (Fridays at 2 pm), [read the issues][issues], and/or read the [contributions guide.][contrib] 
+This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on the [Google hangout][hangout] (Fridays at 2 pm and Sundays at noon, pacific time), [read the issues][issues], and/or read the [contributions guide.][contrib] 
 
 The top-level assembly requires the [reaction wheels] repo be cloned into the same directory, e.g.:  
 
