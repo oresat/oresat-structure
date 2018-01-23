@@ -21,24 +21,7 @@ If you want to show them again, use the same filter process, but show the curren
 If you want to show everything, you can just ctrl+a in the feature tree. If you're showing lots of COTS parts, please hide them before committing, since it can cause the model to load very slowly.
 
 ## TODO:  
-- [X] Get the UO team to choose a camera!
-- [x] Fix the assembles/tech drawings to match Nanorack's convention of XYZ. (Helical goes on +Z. Backplane goes on -X) (@paperman5)
-- [x] Create keepout volumes (parts in the assembly) that correspond to the CubeSat and Nanoracks specifications. (@jalouke)
-- [ ] (Re)design the helical antenna. (@paperman5)
-	- [X] Model the strings that will keep the helical rigid.
-	- Actually, it looks like this is going to become a capstone.
-- [ ] (Re)design the turnstile antenna. 
-    - [ ] Build a working mockup of the deployment.
-    - This is going to be part of the same capstone that does the helical antenna.
-- [X] Fix/check connector alignment on the backplane. (@joedang)
-- [X] Modify space foam to not interfere with the screws that hold the frame together. (@RocketmanYG)
-- [X] Gather info on and/or bug ECEs about the kill switches and RBF (Remove Before Flight) tag. (@hmarie2)
-- [X] Consolidate all COTS parts into the COTS folder. 
-- [ ] Update BoM with quantities. (Preferrably as a CSV, so it's not treated as a binary.)
-- [ ] Design a board that can act as an adapter for a PC 104 board? (This will either require chopping some corners off of the PC 104 or adding cutouts to the frame.)
-- [ ] Complete the inhibit switch assembly, using the measurements from the switches we ordered. (@joedang)
-	- [ ] Modify the inhibit switch plunger to only have one sloping side.
-	- [ ] Change to a "slide to open" rather than a "push to open" scheme, with the switch sitting vertically, to take up less board space. 
+If you're looking for tasks to complete, check the [issues] or the meeting notes. This README is just too low-traffic to be useful as a TODO.
 
 ## Repo Structure
 - OreSat.SLDASM  
@@ -73,6 +56,8 @@ _The horn of the unicorn: the helical antenna and its board._
 ## Drawings
 - [generic board](/Generic/Generic_board.pdf): reference drawings of a genericised board. **ECEs should use this as a reference when designing their boards.**
 - [backplane board](/Backplane/Backplane_board.PDF): reference drawings of the backplane which connects the boards.
+- [solar board](/Solar/Solar_board_drawing.PDF): reference drawings of the board that the solar cells live on.
+
 
 ## Terminology
 These are just some terms that are relevant to the structure, non-obvious to an MME, or non-standard.  
@@ -91,6 +76,6 @@ These are just some terms that are relevant to the structure, non-obvious to an 
 [hangout]: http://www.psas.pdx.edu/hangout
 [issues]: https://github.com/oresat/oresat-structure/issues
 [contrib]: https://github.com/oresat/oresat-structure/blob/master/.github/CONTRIBUTING.md
-[]: 
+[meeting notes]: https://drive.google.com/open?id=1GZoTVhdlaysnGXUWJJ10fYE91epMLL9aAiQLeANLMms
 []: 
 []: 
