@@ -21,7 +21,7 @@ If you want to show them again, use the same filter process, but show the curren
 If you want to show everything, you can just ctrl+a in the feature tree. If you're showing lots of COTS parts, please hide them before committing, since it can cause the model to load very slowly.
 
 ## TODO:  
-If you're looking for tasks to complete, check the [issues] or the meeting notes. This README is just too low-traffic to be useful as a TODO.
+If you're looking for tasks to complete, check the [issues] or the [meeting notes]. This README is just too low-traffic to be useful as a TODO.
 
 ## Repo Structure
 - OreSat.SLDASM  
