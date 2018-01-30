@@ -9,7 +9,8 @@ The top-level assembly requires the [reaction wheels] repo be cloned into the sa
      |-- reaction-wheels/
      |-- oresat-structure/
 
-## Ultra-pro-tip: 
+## Tips 
+### How to Select all COTS parts
 * Tools -> Component Selection -> Advanced Select...
 * Either:
   * Filter for document names which contain `COTS`. Name this selection and save it.
@@ -19,6 +20,14 @@ The top-level assembly requires the [reaction wheels] repo be cloned into the sa
 This hides any components which come from the `COTS/` directory (really anything with "COTS" in the name), which reduces lag significantly.  
 If you want to show them again, use the same filter process, but show the current display state. 
 If you want to show everything, you can just ctrl+a in the feature tree. If you're showing lots of COTS parts, please hide them before committing, since it can cause the model to load very slowly.
+
+### How to Use the OreSat Materials Database
+- Tools -> Options -> File Locations 
+- Show folders for Material Databases.
+- Add the OreSat repo to the list.
+
+You can easily extend and modify the database through the "Edit Material" menu. It's a plain XML file, so Git will track it as usual.
+Do _not_ simply copy the database to the default folders! Other people won't be able to access the materials you add/change.
 
 ## TODO:  
 If you're looking for tasks to complete, check the [issues] or the [meeting notes]. This README is just too low-traffic to be useful as a TODO.
