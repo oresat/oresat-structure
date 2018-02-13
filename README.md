@@ -1,4 +1,6 @@
 # oresat-structure
+
+[![Join the chat at https://gitter.im/oresat/Structure](https://badges.gitter.im/oresat/Structure.svg)](https://gitter.im/oresat/Structure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Mechanical structure for [OreSat](http://www.oresat.org)
 
 This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on the [Google hangout][hangout] (Fridays at 2 pm and Sundays at noon, pacific time), [read the issues][issues], and/or read the [contributions guide.][contrib] 
