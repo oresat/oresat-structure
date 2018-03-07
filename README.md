@@ -1,6 +1,6 @@
 # oresat-structure
 
-[![Join the chat at https://gitter.im/oresat/Structure](https://badges.gitter.im/oresat/Structure.svg)](https://gitter.im/oresat/Structure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/oresat/Structure](https://badges.gitter.im/oresat/Structure.svg)](https://gitter.im/oresat/Structure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  
 Mechanical structure for [OreSat](http://www.oresat.org)
 
 This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on the [Google hangout][hangout] (Fridays at 2 pm and Sundays at noon, pacific time), [read the issues][issues], and/or read the [contributions guide.][contrib] 
@@ -65,7 +65,7 @@ _The feet of the unicorn: the turnstile antenna and its board._
 _The horn of the unicorn: the helical antenna and its board._
 
 ## Drawings
-- [generic board](/Generic/Generic_board.pdf): reference drawings of a genericised board. **ECEs should use this as a reference when designing their boards.**
+- [generic board](/GenericCard/GenericCard_board.pdf): reference drawings of a genericised board. **ECEs should use this as a reference when designing their boards.**
 - [backplane board](/Backplane/Backplane_board.PDF): reference drawings of the backplane which connects the boards.
 - [solar board](/Solar/Solar_board_drawing.PDF): reference drawings of the board that the solar cells live on.
 
