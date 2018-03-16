@@ -25,12 +25,13 @@ volatile byte led_hot = 10; // Yellow
 volatile bool killed = false; // All variables passed to ISR should be volatile
 unsigned long time_start = 0;
 unsigned long time_current = 0;
-unsigned long time_startup = 5; // Time to flip the switch (seconds)
-unsigned long time_max = 15; // Failsafe (seconds)
+unsigned long time_startup = 5; // Delay before experiment
+unsigned long time_max = 45; // Failsafe (seconds)
 
 void setup() {
   // Initialize Serial Connection
-  Serial.begin(9600);
+  Serial.begin(9600);f
+  
 
   // Initialize Pins
   pinMode(led_cold, OUTPUT);
@@ -52,11 +53,11 @@ void setup() {
   Serial.print(time_max);
   Serial.print(" second failsafe.\n");
   Serial.print(time_startup);
-  Serial.print(" second countdown timer.\nPress any key to begin test...");
+  Serial.print(" second countdown timer.\nFlip switch to ON.\nPress any key to begin test...");
   while (Serial.available() < 1) { delay(100); }
 
   // Start Experiment
-  Serial.print("\n\nInput received. Flip switch now! Test beginning in ");
+  Serial.print("\n\nInput received. Test beginning in ");
   Serial.print(time_startup);
   Serial.print(" seconds...");
   delay(time_startup*1000);
@@ -65,6 +66,7 @@ void setup() {
   digitalWrite(led_hot, HIGH);
   digitalWrite(led_cold, LOW);
   digitalWrite(battery, LOW);
+  killed = false; // in case it got killed before start
 }
 
 void loop() {
@@ -87,7 +89,7 @@ void loop() {
 
   // Kill Program Dead (can't use delay in ISR)
   if (killed) { 
-    Serial.print("\nBattery cold! Flip switch."); 
+    Serial.print("\nBattery cold! Flip switch to OFF before disconnecting or resetting."); 
     while(true) { delay(100000); } }
 }
 
