@@ -1,0 +1,4 @@
+If you manufacture something described in this repository or modify its documentation, please tell us!
+PSAS loves to hear about how our work gets used.
+Send general messages to info@psas.pdx.edu.
+If you wish to contact individual contributors, please check the commit logs of this repository for their emails.

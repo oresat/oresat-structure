@@ -82,6 +82,13 @@ These are just some terms that are relevant to the structure, non-obvious to an 
 - The _helical_ or _high gain_ antenna is the curly, single-pronged antenna on the +Z face of the satellite. It's the narrow-beam, high-data-rate antenna the satellite uses for transmitting video.
 - The _backplane_ is the long board that sits on the -X face of the satellite. It transfers power, data, and RF between the boards.
 
+## License 
+Copyright Portland State Aerospace Society 2018.
+
+This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. 
+Please see the CERN OHL v.1.2 for applicable conditions.
 
 [reaction wheels]: https://github.com/oresat/reaction-wheels
 [hangout]: http://www.psas.pdx.edu/hangout
