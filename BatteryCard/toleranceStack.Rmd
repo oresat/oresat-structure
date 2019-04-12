@@ -1,0 +1,58 @@
+---
+title: "Inhibit Switch Tolerance Stack"
+author: "Joe Shields"
+date: "2017-12-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+So, I took some measurements with calipers, just listening for when the switch clicked (shown below.)
+
+```{r switchMeasurements}
+meas <- read.csv('../COTS/ZFswitches/switchStats.csv')
+
+sdMargin <- 8
+peapodSlop <- 1.1
+flight.free <- mean(meas$t) + sdMargin*sd(meas$t) 
+flight.flushSlop <- mean(meas$t) - sdMargin*sd(meas$t)
+flight.flush <- flight.flushSlop-1.1
+ 
+flight.free <-  round(flight.free, 1)
+flight.flushSlop <-  round(flight.flushSlop, 1)
+flight.flush <- round(flight.flush, 1)
+```
+
+```{r plot, echo=FALSE}
+par.old <- par(mar=c(4,4,3,0))
+layout(matrix(1:2, nrow=1), widths=c(3,1))
+posRange <- range(c(meas$t, meas$f, meas$b)) 
+plot(meas$label, meas$free.position.mm, pch=1, ylim= posRange, 
+     ylab='distance from base of switch (mm)', 
+     xlab='switch label'
+     )
+points(meas$label, meas$trigger.position.mm, pch=2)
+points(meas$label, meas$bottom.position.mm, pch=3)
+abline(h=c(flight.free, flight.flushSlop, flight.flush), lty=c(3,2,1))
+plot.new()
+par(mar=c(0,0,0,0))
+legend('topright', 
+       legend=c('free', 'trigger', 'bottom', 'design free', 'peapod slop', 'design flush'), 
+       pch=c(1,2,3, NA, NA, NA),
+       lty=c(NA,NA,NA, 3,2,1)
+       )
+par(par.old)
+```
+
+It seems like the spread between the relevant positions is large enough compared to the standard deviation that we don't really need to worry about the statistics of switch production. I set this to give us a comfy $8\sigma$ margin around the switch trigger.
+
+- Set the geometry such that the end of the arm is `r flight.free` mm away from the base of the switch when free of the peapod.  
+- Set the geometry such that the end of the arm is `r flight.flushSlop` mm away from the base of the switch when inside the peapod and pushed away from the wall.  
+- Set the geometry such that the end of the arm is `r flight.flush` mm away from the base of the switch when inside the peapod and pushed against the wall.  
+
+If you need to shrink that interval, try to keep it centered around `r round(mean(meas$t), 2)`.
+
+
+[inhibitReqs]: https://docs.google.com/document/d/1oqqp9OsMruQzNAHI35QE_UZxmF_v83l-TLrQsE882ks/edit?usp=sharing
