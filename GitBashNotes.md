@@ -1,4 +1,4 @@
-# Using Git Bash for the SolidWorks
+﻿# Using Git Bash for the SolidWorks
 
 ## first time setup
 - `git clone` =  to copy the repo
@@ -22,9 +22,6 @@
 - `git checkout branchname` = swap back to your branch
 - `git merge master` =  This merges master back in your branch.
 - Now re-open everything in solidworks, make sure there’s nothing broken.
-- `git checkout master` = swap to master branch again
-- `git merge branchname` = merge your branch into master
-- `git push` = push to remote
-- Now you’re done, you can stay on master, but better would be to switch back to your branch
-- `git checkout branchname` = swap back to your branch
 
+## Once you're done with the updates
+- email to Catie at cspivey@pdx.edu so she can update the master assembly
