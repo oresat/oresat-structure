@@ -445,19 +445,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2458637.938289711
+2458700.393129132
   9
 $TDUCREATE
  40
-2458638.229956377
+2458700.684795799
   9
 $TDUPDATE
  40
-2458637.938344375
+2458700.393160915
   9
 $TDUUPDATE
  40
-2458638.230011042
+2458700.684827581
   9
 $TDINDWG
  40
@@ -505,7 +505,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-102
+104
   9
 $SURFTAB1
  70
@@ -885,7 +885,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{9E488D8D-A984-4063-9CBF-88F035ABFFF0}
+{84630B8D-30E5-4B3F-B403-CC290F27E279}
   9
 $VERSIONGUID
   2
@@ -1501,7 +1501,7 @@ txt
   0
 STYLE
   5
-FF
+101
 330
 3
 100
@@ -2289,9 +2289,65 @@ AcDbLine
  31
 0.0
   0
-POINT
+LINE
   5
 83
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+100
+AcDbLine
+ 10
+33.8928
+ 20
+37.561
+ 30
+0.0
+ 11
+33.8928
+ 21
+37.307
+ 31
+0.0
+  0
+LINE
+  5
+84
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+100
+AcDbLine
+ 10
+33.8928
+ 20
+38.831
+ 30
+0.0
+ 11
+33.8928
+ 21
+38.577
+ 31
+0.0
+  0
+POINT
+  5
+85
 330
 1F
 100
@@ -2313,7 +2369,7 @@ AcDbPoint
   0
 POINT
   5
-84
+86
 330
 1F
 100
@@ -2335,7 +2391,7 @@ AcDbPoint
   0
 CIRCLE
   5
-BF
+C1
 330
 1F
 100
@@ -2361,7 +2417,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C0
+C2
 330
 1F
 100
@@ -2387,7 +2443,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C1
+C3
 330
 1F
 100
@@ -2413,7 +2469,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C2
+C4
 330
 1F
 100
@@ -2439,7 +2495,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C3
+C5
 330
 1F
 100
@@ -2465,7 +2521,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C4
+C6
 330
 1F
 100
@@ -2491,7 +2547,7 @@ AcDbCircle
   0
 LINE
   5
-C5
+C7
 330
 1F
 100
@@ -2507,13 +2563,13 @@ Continuous
 100
 AcDbLine
  10
-47.3
+47.15
  20
 -41.9
  30
 0.0
  11
-47.3
+47.15
  21
 -45.8
  31
@@ -2521,7 +2577,7 @@ AcDbLine
   0
 LINE
   5
-C6
+C8
 330
 1F
 100
@@ -2537,7 +2593,7 @@ Continuous
 100
 AcDbLine
  10
-46.8
+46.65
  20
 -46.3
  30
@@ -2551,7 +2607,7 @@ AcDbLine
   0
 LINE
   5
-C7
+C9
 330
 1F
 100
@@ -2581,7 +2637,7 @@ AcDbLine
   0
 LINE
   5
-C8
+CA
 330
 1F
 100
@@ -2611,7 +2667,7 @@ AcDbLine
   0
 LINE
   5
-C9
+CB
 330
 1F
 100
@@ -2636,66 +2692,6 @@ AcDbLine
 -34.4
  21
 -46.8
- 31
-0.0
-  0
-LINE
-  5
-CA
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-370
-    25
-100
-AcDbLine
- 10
--34.9
- 20
--46.3
- 30
-0.0
- 11
--46.8
- 21
--46.3
- 31
-0.0
-  0
-LINE
-  5
-CB
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-370
-    25
-100
-AcDbLine
- 10
--47.3
- 20
--45.8
- 30
-0.0
- 11
--47.3
- 21
--41.9
  31
 0.0
   0
@@ -2717,7 +2713,67 @@ Continuous
 100
 AcDbLine
  10
--47.8
+-34.9
+ 20
+-46.3
+ 30
+0.0
+ 11
+-46.65
+ 21
+-46.3
+ 31
+0.0
+  0
+LINE
+  5
+CD
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
+-47.15
+ 20
+-45.8
+ 30
+0.0
+ 11
+-47.15
+ 21
+-41.9
+ 31
+0.0
+  0
+LINE
+  5
+CE
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
+-47.65
  20
 -41.4
  30
@@ -2731,7 +2787,7 @@ AcDbLine
   0
 LINE
   5
-CD
+CF
 330
 1F
 100
@@ -2761,7 +2817,7 @@ AcDbLine
   0
 LINE
   5
-CE
+D0
 330
 1F
 100
@@ -2791,7 +2847,7 @@ AcDbLine
   0
 LINE
   5
-CF
+D1
 330
 1F
 100
@@ -2821,7 +2877,7 @@ AcDbLine
   0
 LINE
   5
-D0
+D2
 330
 1F
 100
@@ -2851,7 +2907,7 @@ AcDbLine
   0
 LINE
   5
-D1
+D3
 330
 1F
 100
@@ -2881,7 +2937,7 @@ AcDbLine
   0
 LINE
   5
-D2
+D4
 330
 1F
 100
@@ -2911,7 +2967,7 @@ AcDbLine
   0
 LINE
   5
-D3
+D5
 330
 1F
 100
@@ -2941,7 +2997,7 @@ AcDbLine
   0
 LINE
   5
-D4
+D6
 330
 1F
 100
@@ -2971,66 +3027,6 @@ AcDbLine
   0
 LINE
   5
-D5
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-370
-    25
-100
-AcDbLine
- 10
--32.41
- 20
-37.1
- 30
-0.0
- 11
--32.41
- 21
-40.8
- 31
-0.0
-  0
-LINE
-  5
-D6
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-370
-    25
-100
-AcDbLine
- 10
--32.41
- 20
-40.8
- 30
-0.0
- 11
--29.59
- 21
-40.8
- 31
-0.0
-  0
-LINE
-  5
 D7
 330
 1F
@@ -3047,6 +3043,66 @@ Continuous
 100
 AcDbLine
  10
+-32.41
+ 20
+37.1
+ 30
+0.0
+ 11
+-32.41
+ 21
+40.8
+ 31
+0.0
+  0
+LINE
+  5
+D8
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
+-32.41
+ 20
+40.8
+ 30
+0.0
+ 11
+-29.59
+ 21
+40.8
+ 31
+0.0
+  0
+LINE
+  5
+D9
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
 -29.59
  20
 37.1
@@ -3061,7 +3117,7 @@ AcDbLine
   0
 LINE
   5
-D8
+DA
 330
 1F
 100
@@ -3091,66 +3147,6 @@ AcDbLine
   0
 LINE
   5
-D9
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-370
-    25
-100
-AcDbLine
- 10
--26.41
- 20
-37.1
- 30
-0.0
- 11
--26.41
- 21
-40.8
- 31
-0.0
-  0
-LINE
-  5
-DA
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-370
-    25
-100
-AcDbLine
- 10
--26.41
- 20
-40.8
- 30
-0.0
- 11
--23.59
- 21
-40.8
- 31
-0.0
-  0
-LINE
-  5
 DB
 330
 1F
@@ -3167,6 +3163,66 @@ Continuous
 100
 AcDbLine
  10
+-26.41
+ 20
+37.1
+ 30
+0.0
+ 11
+-26.41
+ 21
+40.8
+ 31
+0.0
+  0
+LINE
+  5
+DC
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
+-26.41
+ 20
+40.8
+ 30
+0.0
+ 11
+-23.59
+ 21
+40.8
+ 31
+0.0
+  0
+LINE
+  5
+DD
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
 -23.59
  20
 37.1
@@ -3181,7 +3237,7 @@ AcDbLine
   0
 LINE
   5
-DC
+DE
 330
 1F
 100
@@ -3211,7 +3267,7 @@ AcDbLine
   0
 LINE
   5
-DD
+DF
 330
 1F
 100
@@ -3241,7 +3297,7 @@ AcDbLine
   0
 LINE
   5
-DE
+E0
 330
 1F
 100
@@ -3271,7 +3327,7 @@ AcDbLine
   0
 LINE
   5
-DF
+E1
 330
 1F
 100
@@ -3301,7 +3357,7 @@ AcDbLine
   0
 LINE
   5
-E0
+E2
 330
 1F
 100
@@ -3331,7 +3387,7 @@ AcDbLine
   0
 LINE
   5
-E1
+E3
 330
 1F
 100
@@ -3361,7 +3417,7 @@ AcDbLine
   0
 LINE
   5
-E2
+E4
 330
 1F
 100
@@ -3391,7 +3447,7 @@ AcDbLine
   0
 LINE
   5
-E3
+E5
 330
 1F
 100
@@ -3421,7 +3477,7 @@ AcDbLine
   0
 LINE
   5
-E4
+E6
 330
 1F
 100
@@ -3451,7 +3507,7 @@ AcDbLine
   0
 LINE
   5
-E5
+E7
 330
 1F
 100
@@ -3481,7 +3537,7 @@ AcDbLine
   0
 LINE
   5
-E6
+E8
 330
 1F
 100
@@ -3503,7 +3559,7 @@ AcDbLine
  30
 0.0
  11
-47.8
+47.65
  21
 -41.4
  31
@@ -3511,7 +3567,7 @@ AcDbLine
   0
 ARC
   5
-E7
+E9
 330
 1F
 100
@@ -3527,7 +3583,7 @@ Continuous
 100
 AcDbCircle
  10
-47.8
+47.65
  20
 -41.9
  30
@@ -3543,7 +3599,7 @@ AcDbArc
   0
 ARC
   5
-E8
+EA
 330
 1F
 100
@@ -3559,13 +3615,13 @@ Continuous
 100
 AcDbCircle
  10
-46.8
+46.65
  20
 -45.8
  30
 0.0
  40
-0.5
+0.5000000000000071
 100
 AcDbArc
  50
@@ -3575,7 +3631,7 @@ AcDbArc
   0
 ARC
   5
-E9
+EB
 330
 1F
 100
@@ -3607,7 +3663,7 @@ AcDbArc
   0
 ARC
   5
-EA
+EC
 330
 1F
 100
@@ -3639,7 +3695,7 @@ AcDbArc
   0
 ARC
   5
-EB
+ED
 330
 1F
 100
@@ -3671,7 +3727,7 @@ AcDbArc
   0
 ARC
   5
-EC
+EE
 330
 1F
 100
@@ -3703,7 +3759,7 @@ AcDbArc
   0
 ARC
   5
-ED
+EF
 330
 1F
 100
@@ -3719,7 +3775,7 @@ Continuous
 100
 AcDbCircle
  10
--46.8
+-46.65
  20
 -45.8
  30
@@ -3735,7 +3791,7 @@ AcDbArc
   0
 ARC
   5
-EE
+F0
 330
 1F
 100
@@ -3751,13 +3807,13 @@ Continuous
 100
 AcDbCircle
  10
--47.8
+-47.65
  20
 -41.9
  30
 0.0
  40
-0.4999999999999929
+0.5000000000000071
 100
 AcDbArc
  50
@@ -3767,7 +3823,7 @@ AcDbArc
   0
 ARC
   5
-EF
+F1
 330
 1F
 100
@@ -3789,7 +3845,7 @@ AcDbCircle
  30
 0.0
  40
-0.4999999999999929
+0.5
 100
 AcDbArc
  50
@@ -3799,7 +3855,7 @@ AcDbArc
   0
 ARC
   5
-F0
+F2
 330
 1F
 100
@@ -3831,7 +3887,7 @@ AcDbArc
   0
 ARC
   5
-F1
+F3
 330
 1F
 100
@@ -3863,7 +3919,7 @@ AcDbArc
   0
 ARC
   5
-F2
+F4
 330
 1F
 100
@@ -3895,7 +3951,7 @@ AcDbArc
   0
 ARC
   5
-F3
+F5
 330
 1F
 100
@@ -3927,7 +3983,7 @@ AcDbArc
   0
 ARC
   5
-F4
+F6
 330
 1F
 100
@@ -3959,7 +4015,7 @@ AcDbArc
   0
 ARC
   5
-F5
+F7
 330
 1F
 100
@@ -3991,7 +4047,7 @@ AcDbArc
   0
 ARC
   5
-F6
+F8
 330
 1F
 100
@@ -4023,7 +4079,7 @@ AcDbArc
   0
 ARC
   5
-F7
+F9
 330
 1F
 100
@@ -4055,7 +4111,7 @@ AcDbArc
   0
 ARC
   5
-F8
+FA
 330
 1F
 100
@@ -4087,7 +4143,7 @@ AcDbArc
   0
 ARC
   5
-F9
+FB
 330
 1F
 100
@@ -4119,7 +4175,7 @@ AcDbArc
   0
 ARC
   5
-FA
+FC
 330
 1F
 100
@@ -4151,7 +4207,7 @@ AcDbArc
   0
 ARC
   5
-FB
+FD
 330
 1F
 100
@@ -4183,7 +4239,7 @@ AcDbArc
   0
 ARC
   5
-FC
+FE
 330
 1F
 100
@@ -4215,7 +4271,7 @@ AcDbArc
   0
 ARC
   5
-FD
+FF
 330
 1F
 100
@@ -4247,7 +4303,7 @@ AcDbArc
   0
 ARC
   5
-FE
+100
 330
 1F
 100
@@ -4279,7 +4335,7 @@ AcDbArc
   0
 MTEXT
   5
-100
+102
 330
 1F
 100
@@ -4317,7 +4373,7 @@ SLDTEXTSTYLE0
   0
 MTEXT
   5
-101
+103
 330
 1F
 100
