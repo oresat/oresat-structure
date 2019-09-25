@@ -70,15 +70,10 @@ If you want to keep track of major changes in the structure, use tags. `git tag 
 ## Drawings
 Check out these drawings to get an idea of the preferred style:  
 - [+X Frame](/Frames/build/+X_Frame.pdf)
-- [Vibration Jig](/VibrationJig/OreSat Vibration Fixture XY Axis.PDF)
+- [VibrationJig](/VibrationJig/OreSat Vibration Fixture XY Axis.PDF)
 
-When placing things in EAGLE, the electrical engineers must enter Cartesian coordinates with the origin in the lower left corner. So, it's required that any drawings of PCBs have a page with "ordinate dimensions". 
-
-Additionally, any boards with less than about 3 mm of clearance have annotations indicating this, so the ECEs know if they can put components there.
-
-It's strongly preferred that drawings of boards also include the usual feature-oriented dimensions that are common to technical drawings. 
-
-For complicated parts, it's preferred to have the first page only show overall dimensions and the locations of all detail views. The internal features should be shown on the following pages via the detailed views.
+## DXFs
+Electrical Engineers can import DXFs into EagleCad, and Mechanical Engineers can import DXFs into Solidworks as a sketch. When sending a board to an EE (or for having something cut on the laser cutter), become normal to the face, then click "save as" and save as a DXF. Make sure that any important sketches are showing (you can use sketches to mark locations, such as the locations of connectors).
 
 ## Version numbers
 ### tags
