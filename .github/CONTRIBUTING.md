@@ -2,12 +2,12 @@
 If you want to help build a satellite, you're in the right place. This document serves as a style guide for SolidWorks parts, drawings, and assemblies.
 
 ## SolidWorks
-We're currently using SolidWorks 2016-2017. We will be switching to the 2018 version in July. __Please avoid committing files created with versions later than 2016.__ Check `Help -> About SOLIDWORKS`, if you aren't sure what version you have.
+We're currently using SolidWorks 2018.  __Please avoid committing files created with versions later than 2018.__ Check `Help -> About SOLIDWORKS`, if you aren't sure what version you have.
 
 Due to the proprietary nature of SolidWorks (SW) files, Git can't `diff` our CAD. 
 To avoid massive conflicts, we therefore try to have lots of simple parts and subassemblies. This way, we can make changes only to the relevant parts or assemblies, without modifying anything we don't need to.
 
-For example, Alice could make changes to the tail card assembly while Bob mankes changes to the reaction wheels assembly. 
+For example, Alice could make changes to the tail card assembly while Bob makes changes to the reaction wheels assembly. 
 Even though they are both a part of `OreSat.SLDASM`, those changes will not conflict\*, since they modify separate files.
 
 ### Dealing with SW "touching" files
@@ -69,9 +69,8 @@ If you want to keep track of major changes in the structure, use tags. `git tag 
 
 ## Drawings
 Check out these drawings to get an idea of the preferred style:  
-- [generic board](/Generic/Generic_board.pdf)
-- [backplane board](/Backplane/Backplane_board.PDF)
-- [solar board](/Solar/Solar_board_drawing.PDF)
+- [+X Frame](/Frames/build/+X_Frame.pdf)
+- [Vibration Jig](/VibrationJig/OreSat Vibration Fixture XY Axis.PDF)
 
 When placing things in EAGLE, the electrical engineers must enter Cartesian coordinates with the origin in the lower left corner. So, it's required that any drawings of PCBs have a page with "ordinate dimensions". 
 
