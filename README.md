@@ -3,7 +3,7 @@
 [Join the chat at https://pdxaerospace.slack.com/messages/CG1QEGQDN](https://pdxaerospace.slack.com/messages/CG1QEGQDN)  
 Mechanical structure for [OreSat](http://www.oresat.org)
 
-This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on [Jitsi][jitsi] (Fridays at 2 pm and Sundays at 10 AM, pacific time), [read the issues][issues], and/or read the [contributions guide.][contrib] 
+This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on [Jitsi][jitsi] (Fridays at 2 PM and Sundays at 10 AM, Pacific Time), [read the issues][issues], and/or read the [contributions guide.][contrib] 
 
 
 ## Tips 

@@ -24,4 +24,7 @@
 - Now re-open everything in solidworks, make sure there’s nothing broken.
 
 ## Once you're done with the updates
-- email to Catie at cspivey@pdx.edu so she can update the master assembly
+- email to Catie at cspivey@pdx.edu so she can update the master assembly. DO NOT update master unless you have permission to do so!
+
+## If something went wrong
+-notify Catie, Ryan, and/or Andrew so they can help. 
