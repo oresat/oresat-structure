@@ -2,8 +2,8 @@
 
 ## first time setup
 - go to the repo you wish to clone and click "clone or download" then RIGHT CLICK to copy the link (it will NOT work with ctrl+c)
-- type `git clone` then add a space, RIGHT CLICK to paste the link, then press enter =  to copy the repo
-- `git checkout -b` = then add a space and type a name for your branch, then press enter, This creates a branch “dev_yourname” like “dev_joe” and switches you to that branch. This branch is a complete clone of master.
+- type `git clone pastelink` RIGHT CLICK to paste the link, then press enter =  to copy the repo
+- `git checkout -b typeyourbranchnamehere` = then press enter, This creates a branch “dev_yourname” like “dev_joe” and switches you to that branch. This branch is a complete clone of master.
   
 ## Now go make things, do work in SolidWorks, etc
 
