@@ -1,8 +1,9 @@
 ﻿# Using Git Bash for the SolidWorks
 
 ## first time setup
-- `git clone` =  to copy the repo
-- `git checkout -b branchname` = This creates a branch “dev_yourname” like “dev_joe” and switches you to that branch. This branch is a complete clone of master.
+- go to the repo you wish to clone and click "clone or download" then RIGHT CLICK to copy the link (it will NOT work with ctrl+c)
+- type `git clone pastelink` RIGHT CLICK to paste the link, then press enter =  to copy the repo
+- `git checkout -b typeyourbranchnamehere` = then press enter, This creates a branch “dev_yourname” like “dev_joe” and switches you to that branch. This branch is a complete clone of master.
   
 ## Now go make things, do work in SolidWorks, etc
 
@@ -19,7 +20,7 @@
 ## Once you’re ready to merge with master
 - `git checkout master` = swap to master branch
 - `git pull` = update master.
-- `git checkout branchname` = swap back to your branch
+- `git checkout insertyourbranchnamehere` = swap back to your branch
 - `git merge master` =  This merges master back in your branch.
 - Now re-open everything in solidworks, make sure there’s nothing broken.
 
