@@ -1,15 +1,10 @@
 # oresat-structure
 
-[![Join the chat at https://gitter.im/oresat/Structure](https://badges.gitter.im/oresat/Structure.svg)](https://gitter.im/oresat/Structure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  
+[Join the chat at https://pdxaerospace.slack.com/messages/CG1QEGQDN](https://pdxaerospace.slack.com/messages/CG1QEGQDN)  
 Mechanical structure for [OreSat](http://www.oresat.org)
 
-This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on the [Google hangout][hangout] (Fridays at 2 pm and Sundays at noon, pacific time), [read the issues][issues], and/or read the [contributions guide.][contrib] 
+This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on [Jitsi][jitsi] (Fridays at 2 PM and Sundays at 10 AM, Pacific Time), [read the issues][issues], and/or read the [contributions guide.][contrib] 
 
-The top-level assembly requires the [reaction wheels] repo be cloned into the same directory, e.g.:  
-
-    OreSat/
-     |-- reaction-wheels/
-     |-- oresat-structure/
 
 ## Tips 
 ### How to Select all COTS parts
@@ -39,35 +34,32 @@ If you're looking for tasks to complete, check the [issues] or the [meeting note
 _The complete assembly of OreSat_
 - Backplane  
 _The hub which provides power and data to all the boards_
-- CardModules  
-_Parts/subassemblies for the cameras. (due for renaming)_
+- BatteryCard 
+_The assembly that holds the batteries to the card; includes inhibit switches_
+- Cameras
+_Parts/subassemblies for the cameras_
 - COTS  
 _Any Commercial-Off-The-Shelf parts -- screws, connectors, et cetera._
-- doc  
-_Some of the seldom-changing references. (Refer to the Google drive instead when possible.)_
-- Generic  
-_Parts/subassemblies for the generic card._
-- Hardware  
-_(deprecated) still holds some COTS parts which need to be moved and relinked_
-- head-tail  
-_Cards that pass power and data to the endcap boads on the +/-Z faces._
-- Inhibit  
-_The card that turns off the satellite while in the peapod. (likely to become the battery card)_
-- Keepout  
-_Solids for quickly checking if we conform to the CDS, by checking for interferences._
-- Rack  
-_The required CDS rails and the 'rack mount' panels -- the actual structure, per se_
+- DebugConnector  
+_The connector that allows for easy debugging of the satellite_
+- Endcap  
+_The boards that are placed on the +Z and -Z ends of the satellite_
+- Endcards  
+_The cards placed next to the Endcaps; hold the deployable antennas_
+- Frames
+_The +X and -X Frames, as well as the Y frames; wedges and triangles_
+- GenericCard  
+_Parts/subassemblies for the generic card; other cards for OreSat_
+- LICENSE 
+_CERN OHL licensing_
+- ReactionWheels
+_The wheels that are located in the center of OreSat and help it spin while in orbit_
 - Solar  
 _Solar panel boards
-- Zneg  
-_The feet of the unicorn: the turnstile antenna and its board._
-- Zpos  
-_The horn of the unicorn: the helical antenna and its board._
-
-## Drawings
-- [generic board](/GenericCard/GenericCard_board.pdf): reference drawings of a genericised board. **ECEs should use this as a reference when designing their boards.**
-- [backplane board](/Backplane/Backplane_board.PDF): reference drawings of the backplane which connects the boards.
-- [solar board](/Solar/Solar_board_drawing.PDF): reference drawings of the board that the solar cells live on.
+- VibrationJig  
+_The fixtures that hold OreSat on the vibration table during testing_
+- VolumeKeepout  
+_Solids for quickly checking if we conform to the CDS, by checking for interferences_
 
 
 ## Terminology
@@ -76,6 +68,7 @@ These are just some terms that are relevant to the structure, non-obvious to an 
 - A _board_ is any PCB.
 - A _card_ a board that slides into the rack structure of the satellite.
 - An _endcap_ is a board that is screwed onto one of the +/-Z faces.
+- An _endcard_ is a card that slides in under the +Z EndCap or above the -Z EndCap.
 - _Rack_ and _structure_ both refer to the assembly of aluminum frames to which all the boards mount.
 - The _sides_ are the +/-Y components of the rack. They have the slots that the cards slide into.
 - The _turnstile_ antenna is the four-pronged antenna on the -Z face of the satellite. It provides an omnidirectional, low-data-rate signal to the ground.
@@ -91,9 +84,9 @@ This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLU
 Please see the CERN OHL v.1.2 for applicable conditions.
 
 [reaction wheels]: https://github.com/oresat/reaction-wheels
-[hangout]: http://www.psas.pdx.edu/hangout
+[jitsi]: https://meet.jit.si/oresat
 [issues]: https://github.com/oresat/oresat-structure/issues
 [contrib]: https://github.com/oresat/oresat-structure/blob/master/.github/CONTRIBUTING.md
-[meeting notes]: https://drive.google.com/open?id=1GZoTVhdlaysnGXUWJJ10fYE91epMLL9aAiQLeANLMms
+[meeting notes]: https://docs.google.com/document/d/1xtORvxTjkjau814OeL10VVcXgeq_apDfRA-ZR0jDDyk/edit
 []: 
 []: 
