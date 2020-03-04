@@ -1,11 +1,13 @@
 ﻿# Using Git Bash for the SolidWorks
+# You will need to download Git Bash. If you have Windows, Google "Git for Windows"
 
 ## first time setup
 - go to the repo you wish to clone and click "clone or download" then RIGHT CLICK to copy the link (it will NOT work with ctrl+c)
-- type `git clone pastelink` RIGHT CLICK to paste the link, then press enter =  to copy the repo
-- `git checkout -b typeyourbranchnamehere` = then press enter, This creates a branch “dev_yourname” like “dev_joe” and switches you to that branch. This branch is a complete clone of master.
+- type `git clone` = RIGHT CLICK to paste the link, then press enter to copy the repo
+- type `cd oresat-structure` = this puts you in the structure repo
+- type `git checkout -b typeyourbranchnamehere` = then press enter, This creates a branch like “dev_joe” and switches you to that branch. This branch is a complete clone of master. MAKE SURE YOU DO YOUR WORK IN THIS BRANCH
   
-## Now go make things, do work in SolidWorks, etc
+## Now go make things, do work in SolidWorks, etc. You can do this through your file explorer. The repo is placed in the C drive under your username. I recommend pinning this repo to quick start so you can find it easily.
 
 ## Once you’re ready to check in
 - Fully save everything in solidworks - please do shutdown SolidWorks.
