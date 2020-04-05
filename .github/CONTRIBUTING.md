@@ -2,13 +2,12 @@
 If you want to help build a satellite, you're in the right place. This document serves as a style guide for SolidWorks parts, drawings, and assemblies.
 
 ## SolidWorks
-We're currently using SolidWorks 2018.  __Please avoid committing files created with versions later than 2018.__ Check `Help -> About SOLIDWORKS`, if you aren't sure what version you have.
+We're currently using SolidWorks 2019-2020.  __Please avoid committing files created with versions later than 2019.__ Check `Help -> About SOLIDWORKS`, if you aren't sure what version you have. You will NOT be able to open any files created on a newer version than what you have. 
 
 Due to the proprietary nature of SolidWorks (SW) files, Git can't `diff` our CAD. 
 To avoid massive conflicts, we therefore try to have lots of simple parts and subassemblies. This way, we can make changes only to the relevant parts or assemblies, without modifying anything we don't need to.
 
-For example, Alice could make changes to the tail card assembly while Bob makes changes to the reaction wheels assembly. 
-Even though they are both a part of `OreSat.SLDASM`, those changes will not conflict\*, since they modify separate files.
+We also have the ME lead push files to master, while everyone else only pushes to their branches. Any files worked on should be emailed to the ME lead: cspivey@pdx.edu
 
 ### Dealing with SW "touching" files
 \* SW likes to _touch_ (change the date-modified metadata) of its files when it rebuilds assemblies, even if nothing about the assembly has changed. 
