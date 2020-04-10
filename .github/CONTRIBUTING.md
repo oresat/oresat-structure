@@ -70,6 +70,7 @@ If you want to keep track of major changes in the structure, use tags. `git tag 
 Check out these drawings to get an idea of the preferred style:  
 - [+X Frame](/Frames/build/+X_Frame.pdf)
 - [VibrationJig](/VibrationJig/OreSat%20Vibration%20Fixture%20XY%20axis.PDF)
+
 Catie filmed a workshop on best practices specifically for OreSat/PSAS drawings:
 [Drawing Workshop](https://www.youtube.com/watch?v=2atN_Xnmx9k)
 And we reference the [ASME Drafting Standards](https://www.asme.org/codes-standards/find-codes-standards/y14-100-engineering-drawing-practices) and [GD&T](https://www.gdandtbasics.com/gdt-symbols/).
