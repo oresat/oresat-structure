@@ -69,7 +69,7 @@ If you want to keep track of major changes in the structure, use tags. `git tag 
 ## Drawings
 Check out these drawings to get an idea of the preferred style:  
 - [+X Frame](/Frames/build/+X_Frame.pdf)
-- [VibrationJig](/VibrationJig/OreSat Vibration Fixture XY Axis.PDF)
+- [VibrationJig](/VibrationJig/OreSat%20Vibration%20Fixture%20XY%20Axis.PDF)
 
 ## DXFs
 Electrical Engineers can import DXFs into EagleCad, and Mechanical Engineers can import DXFs into Solidworks as a sketch. When sending a board to an EE (or for having something cut on the laser cutter), become normal to the face, then click "save as" and save as a DXF. Make sure that any important sketches are showing (you can use sketches to mark locations, such as the locations of connectors).
