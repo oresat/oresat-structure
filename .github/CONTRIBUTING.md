@@ -73,7 +73,8 @@ Check out these drawings to get an idea of the preferred style:
 
 Catie filmed a workshop on best practices specifically for OreSat/PSAS drawings:
 [Drawing Workshop](https://www.youtube.com/watch?v=2atN_Xnmx9k)
-And we reference the [ASME Drafting Standards](https://www.asme.org/codes-standards/find-codes-standards/y14-100-engineering-drawing-practices) and [GD&T](https://www.gdandtbasics.com/gdt-symbols/).
+
+We reference/use the [ASME Drafting Standards](https://www.asme.org/codes-standards/find-codes-standards/y14-100-engineering-drawing-practices) and [GD&T](https://www.gdandtbasics.com/gdt-symbols/).
 
 ## DXFs
 Electrical Engineers can import DXFs into EagleCad, and Mechanical Engineers can import DXFs into Solidworks as a sketch. When sending a board to an EE (or for having something cut on the laser cutter), become normal to the face, then click "save as" and save as a DXF. Make sure that any important sketches are showing (you can use sketches to mark locations, such as the locations of connectors).
