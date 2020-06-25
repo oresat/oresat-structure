@@ -3,7 +3,7 @@
 [Join the chat at https://pdxaerospace.slack.com/messages/CG1QEGQDN](https://pdxaerospace.slack.com/messages/CG1QEGQDN)  
 Mechanical structure for [OreSat](http://www.oresat.org)
 
-This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, drop in on [Jitsi][jitsi] (Fridays at 2 PM and Sundays at 10 AM, Pacific Time), [read the issues][issues], and/or read the [contributions guide.][contrib]
+This repo contains the top-level assembly of OreSat and the trivial subassemblies. If you'd like to contribute, join us on Zoom ([Fridays at 2 PM](https://pdx.zoom.us/j/173663228) and [Sundays at 10 AM](https://pdx.zoom.us/j/97369603680), Pacific Time), [read the issues][issues], and/or read the [contributions guide.][contrib]
 
 # Please read our notes on [using Git Bash for Structure](https://github.com/oresat/oresat-structure/blob/master/GitBashNotes.md) before you start!
 
@@ -90,7 +90,6 @@ This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLU
 Please see the CERN OHL v.1.2 for applicable conditions.
 
 [reaction wheels]: https://github.com/oresat/reaction-wheels
-[jitsi]: https://meet.jit.si/oresat
 [issues]: https://github.com/oresat/oresat-structure/issues
 [contrib]: https://github.com/oresat/oresat-structure/blob/master/.github/CONTRIBUTING.md
 [meeting notes]: https://docs.google.com/document/d/1SXFwl-Lf-ymAFzhNi_DNS9qGwW9vnjGsETkxD0hkKp0/edit?usp=sharing
