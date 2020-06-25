@@ -27,7 +27,7 @@
 - Now re-open everything in solidworks, make sure there’s nothing broken.
 
 ## Once you're done with the updates
-- email to Emilio at egizzi@pdx.edu so she can update the master assembly. DO NOT update master unless you have permission to do so!
+- email to Emilio at egizzi@pdx.edu so he can update the master assembly. DO NOT update master unless you have permission to do so!
 
 ## If something went wrong
 -notify Emilio, Catie, Ryan, and/or Andrew so they can help. 
