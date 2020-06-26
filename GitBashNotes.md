@@ -13,6 +13,7 @@
 - Type `git pull` = This pulls the latest version of the master branch.
 - Type `git checkout insertyourbranchnamehere` = This switches back to your personal branch. For me, this looks like `git checkout dev_emilio`
 - Type `git merge master` = This merges master back in to your branch, updating your branch to the latest version of the master branch.
+- Type `git push` = This pushes these new changes to your branch.
   
 ## Now go make things, do work in SolidWorks, etc. You can do this through your file explorer. The repo is placed in the C drive under your username. I recommend pinning this repo to quick start so you can find it easily.
 
