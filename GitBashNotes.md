@@ -32,6 +32,7 @@
 - `git pull` = update master.
 - `git checkout insertyourbranchnamehere` = swap back to your branch
 - `git merge master` =  This merges master back in your branch. If you experience any problems here, reach out for help.
+- `git push` = This saves these changes to your remote branch.
 - Now re-open everything in solidworks, make sure there’s nothing broken.
 
 ## Once you're done with the updates
