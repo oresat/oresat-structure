@@ -13,5 +13,8 @@ Thumbs.db
 # R history
 .Rhistory
 
-OreSat0.STEP
+# STEP and Parasolid files
 OreSat.STEP
+OreSat.x_t
+OreSat0.STEP
+OreSat0.x_t
